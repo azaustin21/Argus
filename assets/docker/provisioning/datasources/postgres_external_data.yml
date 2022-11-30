@@ -1,0 +1,20 @@
+---
+apiVersion: 1
+
+deleteDatasources:
+    - name: postgres-external
+      orgId: 1
+
+datasources:
+    - name: postgres-external
+      type: postgres
+      url: 'testdatabaseurl.companyX.DB:5432' # replace url with DB url or IP with port number
+      database: postgres_test
+      user: # Add service account needed to access the DB.
+      secureJsonData:
+          password: # Add above service account password to authorize access to DB
+      jsonData:
+          sslmode: disable
+          maxOpenConns: 0
+          maxIdleConns: 2
+          connMaxLifetime: 14400
