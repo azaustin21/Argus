@@ -1,0 +1,10 @@
+hvac
+numpy
+openpyxl
+pandas
+psycopg2
+python-dateutil
+requests
+urllib3
+veracode-api-signing
+XlsxWriter
