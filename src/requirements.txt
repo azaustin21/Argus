@@ -2,7 +2,7 @@ hvac
 numpy
 openpyxl
 pandas
-psycopg2
+psycopg2-binary
 python-dateutil
 requests
 urllib3
