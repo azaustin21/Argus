@@ -1,7 +1,0 @@
-name: "Argus Service PROD"
-
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
